@@ -1,0 +1,59 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#menu ul li a:hover {
+    color: #00ffd5;
+    transition: 1.2s;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding: 0 100px;
+    font-size: 30px;
+}
+
+#menu {
+    background-color: red;
+    text-align: center;
+    height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#banheiro,
+#relaxar,
+#compras {
+    margin: 50px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+figcaption {
+    display: none;
+}
+
+#rodape {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#rodape span a {
+    color: red;
+    text-decoration: none;
+}
